@@ -15,7 +15,6 @@ builder.Services.AddDbContext<TODOAppDbContex>(options =>
         sqlServerOptions => sqlServerOptions.EnableRetryOnFailure());
 });
 
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
